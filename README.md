@@ -8,7 +8,7 @@ The result is a tidy data set with variable means (over all observations)
 for each subject and correpsonding activity.
 
 ### GettingCleaningData_project Repository
-Repository contains R code (run_analysis.R), code book (code_book.txt), and
+Repository contains R code (run_analysis.R), code book (CodeBook.pdf), and
 readme (README.md) for the Getting and Cleaning Data course project.
 
 ### Getting the Data
