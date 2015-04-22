@@ -26,14 +26,15 @@ directory:
 3.  setwd("./UCI HAR Dataset")
 
 ### Reading in the Data with R
-Next the data is read into R using read.table(). This is performed for:
-1.  features.txt->contains the labels for the data set variables
-2.  train/subject_train.txt->contains the subject IDs for the training set data
-3.  train/y_train.txt->contains the activity IDs for the training set data
-4.  train/X_train.txt->contains the training set data for all the variables
-5.  test/subject_test.txt->contains the subject IDs for the test set data
-6.  test/y_test.txt->contains the activity IDs for the test set data
-7.  test/X_test.txt->contains the test set data for all the variables
+Next the data is read into R using read.table(). This is performed for the
+following.
+1.  features.txt->contains the labels for the data set variables.
+2.  train/subject_train.txt->contains the subject IDs for the training set data.
+3.  train/y_train.txt->contains the activity IDs for the training set data.
+4.  train/X_train.txt->contains the training set data for all the variables.
+5.  test/subject_test.txt->contains the subject IDs for the test set data.
+6.  test/y_test.txt->contains the activity IDs for the test set data.
+7.  test/X_test.txt->contains the test set data for all the variables.
 
 ### Part 1: Combining Data into One Data Frame
 1.  Data frames were created for the training and test data sets. These were
