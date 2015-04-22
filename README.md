@@ -12,10 +12,10 @@ Repository contains R code (run_analysis.R), code book (CodeBook.pdf), and
 readme (README.md) for the Getting and Cleaning Data course project.
 
 ### Getting the Data
-First you must download the Samsung data, decompress (unzip) the data, and
+First you must download the smartphone data, decompress (unzip) the data, and
 change your working directory to the parent directory containing the unzipped
 data files. Please see the README.txt file within the UCI HAR Dataset directory
-for details on the contents of the Samsung data and file structure.
+for details on the contents of the data and file structure.
 
 The following commands can be used to download, unzip, and set the working
 directory:
