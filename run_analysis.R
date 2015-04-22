@@ -46,4 +46,4 @@ vars<-names(filteredDat)
 vars<-vars[-(1:2)]
 datMelt<-melt(filteredDat,id=c("subjectID", "activity"), measure.vars=vars)
 datCast<-dcast(datMelt, subjectID + activity ~ variable,mean)
-write.table(datCast, file="Samsung_tidydataset.txt", row.names=FALSE, sep="\t")
+write.table(datCast, file="smartphone_tidydataset.txt", row.names=FALSE, sep="\t")
