@@ -11,5 +11,3 @@ The following commands can be used to download, unzip, and set the working direc
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "./dataset.zip")
 unzip("./dataset.zip")
 setwd("./UCI HAR Dataset")
-
-#Next the data is read into R using read.table() and combined into one large dataframe.
