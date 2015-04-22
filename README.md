@@ -1,2 +1,3 @@
 # GettingCleaningData_project
-contains R code, code book, and readme for the Getting and Cleaning Data course project.
+Contains R code (run_analysis.R), code book, and readme for the Getting and Cleaning Data course project.
+
