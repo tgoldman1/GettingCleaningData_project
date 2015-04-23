@@ -16,6 +16,8 @@ names(mergedDat)<-c("subjectID", "activity", featuresRaw[,2] )
 ###Part 2: Filter on columns which contain 'mean' or 'std'
 colMatches <- grepl("mean|std", names(mergedDat))
 filteredDat <- cbind(mergedDat[,1:2],mergedDat[,colMatches])
+#we want to remove meanFreq as well
+filteredDat<-filteredDat[!(names(filteredDat) %in% grep("meanFreq",names(filteredDat),value=TRUE))]
 
 ###Part 3: Replace activity IDs with activity descriptions from activity_labels.txt
 filteredDat[,2]<-sub("1", "WALKING", filteredDat[,2])

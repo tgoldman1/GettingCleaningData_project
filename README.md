@@ -45,7 +45,8 @@ by row binding.
 file.
 
 ### Part 2: Filtering on Columns which Contain 'mean' or 'std'
-Use grepl() to remove columns which do not contain mean or std
+Use grepl() to remove columns which do not contain mean or std. Also use grep
+to remove meanFreq features. Leaves only pure mean and std feature columns.
 
 ### Part 3: Replacing Activity IDs with Activity Descriptions 
 Use sub() to replace activity IDs with activity descriptions from
@@ -56,9 +57,11 @@ Use sub() and gsub() to rename column names with tidy-like easy to read labels.
 This includes using camelBack naming, removing paretheses and dashes, and
 adding more descriptive labels to allow for easier reading of the variable names.
 
-### Part 5: Creating a Second Tidy Data Set from the Output from Part 4.
-Use reshape2 library for functions melt and dcast to include the mean of the
-variables for the observations for each subject and activity performed by that 
-subject.
+### Part 5: Creating a Second Tidy Data Set
+Use the output from Part 4 and reshape2 library for functions melt and dcast to 
+include the mean of the variables for the observations for each subject
+and activity performed by that subject.
 
-Print out tidy data set using write.table() using row.name=FALSE.
+Print out tidy data set using write.table() using row.name=FALSE. Tidy
+data should consist of 181 rows (30 subjects over 6 activities + header/labels)
+and 68 columns (means for 66 features + subjectID and activity). 
