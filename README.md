@@ -56,6 +56,9 @@ activity_labels.txt.
 Use sub() and gsub() to rename column names with tidy-like easy to read labels.
 This includes using camelBack naming, removing paretheses and dashes, and
 adding more descriptive labels to allow for easier reading of the variable names.
+*Note: Although it may be recommended to have all lowercase names, in this
+case, I would argue that camelBack naming is better given the length and 
+readability of the labels.
 
 ### Part 5: Creating a Second Tidy Data Set
 Use the output from Part 4 and reshape2 library for functions melt and dcast to 
